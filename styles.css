@@ -1,0 +1,42 @@
+button {
+    padding: 50px 20px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: azure;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #464a4e; /* Cor de fundo azul mais escura no hover */
+}
+
+button.pressionado {
+    background-color: #fff; /* Cor de fundo quando pressionado */
+    color: #000; /* Cor do texto quando pressionado */
+}
+
+.container {
+    display: flex; /* Usa flexbox para alinhamento */
+    justify-content: center; /* Alinha horizontalmente no centro */
+}
+
+.container1 {
+    display: flex; /* Usa flexbox para alinhamento */
+    justify-content: center; /* Alinha horizontalmente no centro */
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    position: absolute; /* Define o posicionamento absoluto */
+    top: 50%; /* Posiciona 50% do topo da tela */
+    left: 50%; /* Posiciona 50% da esquerda da tela */
+    transform: translate(-50%, -50%); /* Centraliza o parágrafo */
+    font-weight: bold;
+    font-size: 50px;
+}
